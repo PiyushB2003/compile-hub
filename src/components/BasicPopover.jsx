@@ -96,7 +96,7 @@ export default function BasicPopover() {
                         maxWidth: window.innerWidth < 400 ? '90vw' : window.innerWidth < 640 ? '70vw' : '50vw',
                         overflowY: 'auto',
                         backgroundColor: isDarkMode ? "#28252E" : "#ffffff",
-                        color: "white"
+                        color: isDarkMode ? "white" : "black"
                     },
                 }}
             >
