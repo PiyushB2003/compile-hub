@@ -118,7 +118,7 @@ export default function BasicPopover() {
                                 {contentBlocks.map((block, index) => (
                                     <React.Fragment key={index}>
                                         {block.type === 'text' ? (
-                                            <Markdown className="result break-words">
+                                            <Markdown className="result break-words dark:text-white text-black">
                                                 {block.content}
                                             </Markdown>
                                         ) : (
